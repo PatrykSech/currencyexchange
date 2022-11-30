@@ -3,8 +3,7 @@ html {
 }
 
 *,
-::after,
-::before {
+::after, ::before {
     box-sizing: inherit;
 }
 
@@ -14,18 +13,13 @@ html {
     font-family: 'Alexandria', sans-serif;
     background-image: url("../images/pieniądze.png");
     min-height: 100vh;
-    max-height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    backdrop-filter: none;
-    object-position: right;
-    /* background: brown; */
-    object-fit: inherit;
     color: #fff;
+    padding: 10px 20px;
 }
 
 .paragraph {
     font-size: 17px;
-    /* color: rgb(211, 211, 211); */
     margin-bottom: 40px;
 }
