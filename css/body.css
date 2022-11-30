@@ -11,15 +11,21 @@ html {
     max-width: 800px;
     margin: 10px auto;
     font-family: 'Alexandria', sans-serif;
-    background-image: url("../images/pieniądze.png");
+    background-image: url("../images/pexels-kevish-hurree-2427806.jpg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
     color: #fff;
-    padding: 10px 20px;
 }
 
-.paragraph {
-    font-size: 17px;
-    margin-bottom: 40px;
+.section {
+    background-color: #3d405b;
+    border-radius: 15px;
+    padding: 20px;
+    overflow-x: auto;
+}
+.header {
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
 }
