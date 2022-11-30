@@ -12,12 +12,20 @@ html {
     max-width: 800px;
     margin: 10px auto;
     font-family: 'Alexandria', sans-serif;
-    background-color: #14213d;
+    background-image: url("../images/pieniądze.png");
+    min-height: 100vh;
+    max-height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: none;
+    object-position: right;
+    /* background: brown; */
+    object-fit: inherit;
     color: #fff;
 }
 
 .paragraph {
     font-size: 17px;
-    color: rgb(211, 211, 211);
+    /* color: rgb(211, 211, 211); */
     margin-bottom: 40px;
 }
