@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/body.css" rel="stylesheet">
+    <link href="css/form.css" rel="stylesheet">
+    <script defer src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@300;400&display=swap" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+<header>
+    <h1>Najlepsze kursy wymian!</h1>
+    <p class="paragraph">Pieniadze na twoim koncie w ciągu 5 minut.</p>
+</header>
+<nav></nav>
+
+<body class="body">
+    <main>
+        <section>
+            <form class="js-form">
+                <fieldset class="form__fieldset">
+                    <legend class="form__legend">
+                        Wymiana walut
+                    </legend>
+                    <p>Wprowadź kwotę w PLN :</p>
+                    <p>
+                        <label>
+                            <input placeholder="PLN" type="number" name="kwota" required class="js-amount form__label"
+                                min="1">
+                        </label>
+                    </p>
+                    <p>Chcę otrzymać :</p>
+                    <p>
+                        <label>
+                            <select class="js-currency form__currency">
+                                <option>AUD</option>
+                                <option>USD</option>
+                                <option selected>GBP</option>
+                            </select>
+                        </label>
+                    </p>
+                </fieldset>
+                <button class="form__button">Wyślij</button>
+                <p>Po wymianie otrzymasz: <span class="js-result">N/A</span></p>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
