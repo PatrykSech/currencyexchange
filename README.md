@@ -9,5 +9,5 @@ Currently, the exchange office is quite simple, but I hope that over time I will
 - CSS
 - JavaScript
 
-# DEMO
+## DEMO
 patryksech.github.io/currencyexchange/
