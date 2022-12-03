@@ -9,4 +9,5 @@ Technologies used by me:
 - CSS
 - JavaScript
 
-You can find the link to the website on the right in the about tab.
+# DEMO
+patryksech.github.io/currencyexchange/
